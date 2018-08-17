@@ -5,7 +5,7 @@ import './index.css';
 
 import { createStore, applyMiddleware } from 'redux';
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
+//import registerServiceWorker from './registerServiceWorker';
 import reducers from './reducers';
 
 
@@ -19,4 +19,4 @@ ReactDOM.render(
 	, document.getElementById('root'));
 
 
-registerServiceWorker();
+// registerServiceWorker();
